@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>545338433521-kt4ah30dgmftbv0e7783d1bho90e67gr.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.545338433521-kt4ah30dgmftbv0e7783d1bho90e67gr</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>545338433521-r12lb6027556sn5utr4g8t5q2gipjqbt.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBjNLEIKYJioNTt_h9RSz4_3w0wxompiiA</string>
+	<key>GCM_SENDER_ID</key>
+	<string>545338433521</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.talia.nekoshare</string>
+	<key>PROJECT_ID</key>
+	<string>nekoshare-unity</string>
+	<key>STORAGE_BUCKET</key>
+	<string>nekoshare-unity.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:545338433521:ios:2cf56faa5254578b94ee50</string>
+</dict>
+</plist>

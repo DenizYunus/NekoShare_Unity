@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "545338433521",
+    "project_id": "nekoshare-unity",
+    "storage_bucket": "nekoshare-unity.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:545338433521:android:edd270a9ca28aa4794ee50",
+        "android_client_info": {
+          "package_name": "com.talia.nekoshare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "545338433521-r12lb6027556sn5utr4g8t5q2gipjqbt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.talia.nekoshare",
+            "certificate_hash": "69feb74f8a9c5ecf0c36e38e993d78e91ff60b34"
+          }
+        },
+        {
+          "client_id": "545338433521-7upo7kj52hhjtg87i0mas2eq7fgksgah.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcUj0XVzKCLYBwbJ3C_ye2TGNx-WWoncQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "545338433521-7upo7kj52hhjtg87i0mas2eq7fgksgah.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "545338433521-kt4ah30dgmftbv0e7783d1bho90e67gr.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.talia.nekoshare"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
