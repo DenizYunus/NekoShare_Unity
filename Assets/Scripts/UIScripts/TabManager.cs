@@ -6,6 +6,7 @@ public class TabManager : MonoBehaviour
 {
     public Button[] tabButtons;
     public GameObject[] tabFrames;
+    int lastTab = 0;
 
     void OnEnable()
     {
@@ -16,13 +17,30 @@ public class TabManager : MonoBehaviour
         }
     }
 
-    void ActivateTab(int index)
+    async void ActivateTab(int index)
     {
-        for (int i = 0; i < tabFrames.Length; i++)
+        Debug.Log(index + " _  last: " + lastTab);
+        if (index > lastTab)
         {
-            tabFrames[i].SetActive(false);
+            for (int i = 0; i < tabFrames.Length; i++)
+            {
+                if (i == index) break;
+                LeanTween.moveLocalX(tabFrames[i], -1080, 0.1f);
+                await System.Threading.Tasks.Task.Delay(100);
+                tabFrames[i].SetActive(false);
+            }
+        } else if (index < lastTab)
+        {
+            for (int i = tabFrames.Length - 1; i >= 0; i--)
+            {
+                if (i < index) break;
+                LeanTween.moveLocalX(tabFrames[i], 0, 0.2f);
+                await System.Threading.Tasks.Task.Delay(100);
+                tabFrames[i].SetActive(true);
+            }
         }
-        Debug.Log(index);
-        tabFrames[index].SetActive(true);
+        lastTab = index;
+        //Debug.Log(index);
+        //tabFrames[index].SetActive(true);
     }
 }
