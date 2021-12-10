@@ -35,4 +35,4 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
-Assets/3rdParty/Firebase/Plugins/x86_64/FirebaseCppApp-8_6_2.so
+Assets/Firebase/Plugins/x86_64/FirebaseCppApp-8_6_2.so

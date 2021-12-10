@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:keep="@string/firebase_database_url,@string/gcm_defaultSenderId,@string/google_storage_bucket,@string/project_id,@string/google_api_key,@string/google_crash_reporting_api_key,@string/google_app_id,@string/default_android_client_id,@string/default_web_client_id">
+  <string name="firebase_database_url" translatable="false">https://nekoshare-unity-default-rtdb.firebaseio.com</string>
+  <string name="gcm_defaultSenderId" translatable="false">545338433521</string>
+  <string name="google_storage_bucket" translatable="false">nekoshare-unity.appspot.com</string>
+  <string name="project_id" translatable="false">nekoshare-unity</string>
+  <string name="google_api_key" translatable="false">AIzaSyBcUj0XVzKCLYBwbJ3C_ye2TGNx-WWoncQ</string>
+  <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBcUj0XVzKCLYBwbJ3C_ye2TGNx-WWoncQ</string>
+  <string name="google_app_id" translatable="false">1:545338433521:android:edd270a9ca28aa4794ee50</string>
+  <string name="default_android_client_id" translatable="false">545338433521-r12lb6027556sn5utr4g8t5q2gipjqbt.apps.googleusercontent.com</string>
+  <string name="default_web_client_id" translatable="false">545338433521-7upo7kj52hhjtg87i0mas2eq7fgksgah.apps.googleusercontent.com</string>
+</resources>

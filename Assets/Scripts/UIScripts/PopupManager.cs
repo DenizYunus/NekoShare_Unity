@@ -17,16 +17,19 @@ public class PopupManager : MonoBehaviour
             instance = this;
         else
             Destroy(this);
+        DontDestroyOnLoad(gameObject);
     }
 
     public void ShowLoadingPopup()
     {
+        if (loadingPanel.activeInHierarchy) return;
         loadingPanel.SetActive(true);
         LeanTween.scale(loadingPanel, new Vector3(1, 1, 1), animSpeed).setEase(LeanTweenType.easeInQuad);
     }
 
     public async void HideLoadingPopup()
     {
+        if (!loadingPanel.activeInHierarchy) return;
         LeanTween.scale(loadingPanel, new Vector3(0, 0, 0), animSpeed).setEase(LeanTweenType.easeInQuad);
         await Tasks.Task.Delay((int) Math.Floor(animSpeed * 100f));
         loadingPanel.SetActive(false);
